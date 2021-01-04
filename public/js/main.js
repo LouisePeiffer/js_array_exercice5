@@ -26,3 +26,17 @@ console.log(tabExo);
 tabExo.reverse()
 console.log(tabExo);
 
+//Exo 8
+let boiteA = ['objet1', 'objet2']
+alert(boiteA)
+boiteA.unshift('objet3')
+alert(boiteA)
+boiteA.push('objet4', 'objet5', 'objet6')
+alert(boiteA)
+alert(boiteA.length)
+boiteA.splice(0,3)
+alert(boiteA)
+boiteA.push('objet7')
+alert(boiteA)
+alert(boiteA.length)
+alert(boiteA.splice(2, 2))
